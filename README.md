@@ -1,16 +1,38 @@
 "# pokemon-app#"
+⚙️ Backend (Symfony)
+Installation de Symfony pour gérer l'environnement backend.
 
-BACKEND(SYMFONY)
--Installation de symfony dans mon projet pour l'environnement Backend 
-- Creation d'une Base de donnees mysql depuis symfony et l'utilisation de mamp pour la visualisation
--creation d'une entite nommé pokemon pour stockers les images , ID , types, noms des pokemon
-- creation d'une commande pour importer les pokemon de pokeAPI dans ma base de données local
--Migrations des données dans ma base de données 
--Utilisations de api platforme pour transformer mon entité en ressource API accesible via http
+Création d'une base de données MySQL via Symfony, avec visualisation grâce à MAMP.
 
-Frontend(React+Next.js)
--Creation d'un environmment frontend avec react et next grace a npm en javascript
--creation d'un dossier pokemon_app pour me servir de routes a mon fichier page.jsx (vue que j'utilise next)
--creation d'un script en javascript avec une requete fetch qui prend l'url de ma base de donnees et me renvoi
-le nom ,l'image, le type et l'ID des pokemon sur mon frontend 
--Ajout d'un css pour pour rajouter du style et cree une page intuitifs et dynamique
+Création d'une entité Pokemon pour stocker :
+
+l’ID,
+
+le nom,
+
+les types,
+
+l’image des Pokémon.
+
+Développement d'une commande personnalisée permettant d'importer les données depuis la PokéAPI dans la base de données locale.
+
+Exécution des migrations pour insérer les données dans la base.
+
+Utilisation de API Platform pour exposer l'entité Pokemon en tant que ressource API REST, accessible via HTTP.
+
+💻 Frontend (React + Next.js)
+Création de l'environnement frontend avec React et Next.js en JavaScript (via npm).
+
+Création d’un dossier pokemon_app servant de route principale (avec gestion des vues via pages/index.jsx grâce à Next.js).
+
+Écriture d’un script JavaScript avec fetch() pour interroger l’API backend et afficher :
+
+le nom,
+
+l’image,
+
+le type,
+
+l’ID des Pokémon.
+
+Ajout de styles CSS pour rendre l’interface intuitive, dynamique et visuellement agréable.
