@@ -9,7 +9,7 @@ export default function Pokedex() {
   useEffect(() => {
     async function fetchPokemonList() {
       try {
-        const res = await fetch("https://127.0.0.1:8080/api/pokemon");
+        const res = await fetch("https://127.0.0.1:8080/custom-api/pokemon");
         if (!res.ok) throw new Error("Erreur réseau");
         const data = await res.json();
         console.log("Data reçue :", data);
