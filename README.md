@@ -1,38 +1,40 @@
-"# pokemon-app#"
+pokemon-app
 ⚙️ Backend (Symfony)
-Installation de Symfony pour gérer l'environnement backend.
+Installation of Symfony to manage the backend environment.
 
-Création d'une base de données MySQL via Symfony, avec visualisation grâce à MAMP.
+Creation of a MySQL database via Symfony, with visualization using MAMP.
 
-Création d'une entité Pokemon pour stocker :
+Creation of a Pokemon entity to store:
 
-l’ID,
+ID,
 
-le nom,
+Name,
 
-les types,
+Types,
 
-l’image des Pokémon.
+Image of the Pokémon.
 
-Développement d'une commande personnalisée permettant d'importer les données depuis la PokéAPI dans la base de données locale.
+Development of a custom command to import data from the PokéAPI into the local database.
 
-Exécution des migrations pour insérer les données dans la base.
+Execution of migrations to insert the data into the database.
 
-Utilisation de API Platform pour exposer l'entité Pokemon en tant que ressource API REST, accessible via HTTP.
+Use of API Platform to expose the Pokemon entity as a RESTful API resource, accessible via HTTP.
+
+Creation of a custom controller with a GET method to fetch data from the backend and send it to the frontend.
 
 💻 Frontend (React + Next.js)
-Création de l'environnement frontend avec React et Next.js en JavaScript (via npm).
+Setup of the frontend environment using React and Next.js in JavaScript (via npm).
 
-Création d’un dossier pokemon_app servant de route principale (avec gestion des vues via pages/index.jsx grâce à Next.js).
+Creation of a pokemon_app folder serving as the main route (with view management using pages/index.jsx thanks to Next.js).
 
-Écriture d’un script JavaScript avec fetch() pour interroger l’API backend et afficher :
+Writing a JavaScript script using fetch() to query the backend API and display:
 
-le nom,
+Name,
 
-l’image,
+Image,
 
-le type,
+Type,
 
-l’ID des Pokémon.
+ID of the Pokémon.
 
-Ajout de styles CSS pour rendre l’interface intuitive, dynamique et visuellement agréable.
+Addition of CSS styles to make the interface intuitive, dynamic, and visually appealing.
