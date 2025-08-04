@@ -14,11 +14,12 @@ Types,
 
 Image of the Pokémon.
 
-Development of a custom command to import data from the PokéAPI into the local database.
+
+creation of a controller with POST method to import the pokemon from POKEAPI into my local database
 
 Execution of migrations to insert the data into the database.
 
-Use of API Platform to expose the Pokemon entity as a RESTful API resource, accessible via HTTP.
+Use of API Platform to expose the Pokemon entity as a RESTful API resource, accessible via HTTP. //after has been fixe with use of controller it is not more used in the code 
 
 Creation of a custom controller with a GET method to fetch data from the backend and send it to the frontend.
 
