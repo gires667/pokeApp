@@ -38,3 +38,4 @@ Type,
 ID of the Pokémon.
 
 Addition of CSS styles to make the interface intuitive, dynamic, and visually appealing.
+Addition of search bar to search pokemons 
