@@ -26,7 +26,7 @@ Creation of a custom controller with a GET method to fetch data from the backend
 💻 Frontend (React + Next.js)
 Setup of the frontend environment using React and Next.js in JavaScript (via npm).
 
-Creation of a pokemon_app folder serving as the main route (with view management using pages/index.jsx thanks to Next.js).
+Creation of a pokemon_app folder serving as the main route (with view management using pages/index.jsx with next.js).
 
 Writing a JavaScript script using fetch() to query the backend API and display:
 
